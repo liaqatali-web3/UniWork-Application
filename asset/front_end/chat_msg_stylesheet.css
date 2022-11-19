@@ -1,0 +1,105 @@
+
+#top_bar_ch_div > p{
+    margin: 0;
+    padding: 0;
+}
+#chat_div_ch_div{
+
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255,255,255);
+    bottom: 0;
+
+}
+#top_bar_ch_div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: start;
+    font-size: 15px;
+    padding: 10px;
+    color:rgb(250,250,250);
+    font-family: Roboto;
+    height: 20px;
+
+    background-color:rgb(44, 31, 117);
+}
+#chat_container_ch_div{
+    height: 310px;
+    display: none;
+    border-bottom: 1px solid rgb(100,100,100);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#chat_list_ch_div{
+    display: block;
+    height: 310px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#text_input_ch_div{
+
+    margin: 10px 0 0 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#input_self_ch_div{
+    height: 15px;
+    padding: 5px;
+}
+#send_message_ch_div{
+    margin-right: 20px;
+    padding: 5px 10px;
+}
+.msg_ch_div_send{
+    align-self: flex-end;
+    width: 280px;
+    padding: 10px;
+    background-color: rgb(245,245,245);
+    border:1px solid rgb(230,230,230);
+    border-radius: 4px;
+    font-family: Roboto;
+    margin: 10px 10px 10px 70px;
+}
+.msg_ch_div_receive{
+    width: 280px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(245,245,245);
+    border:1px solid rgb(230,230,230);
+    border-radius: 4px;
+    font-family: Roboto;
+}
+.bar_ch_div{
+
+}
+.bar_in_ch_div{
+    width: 15px;
+    height: 3px;
+    background-color: rgb(255,255,255);
+    margin-top:3px;
+    margin-right: 10px;
+}
+
+
+.chat_display_ch_div{
+    padding: 10px;
+    margin: 0;
+    border:none;
+    border-bottom: 1px solid rgb(230,230,230);
+}
+.chat_display_ch_div > p{
+    margin: 0;
+
+    font-family: Roboto;
+}
+.heading_chat_dis{
+
+}
+.text_chat_dis{
+    padding: 5px;
+    color: rgb(70,70,70);
+}
